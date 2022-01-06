@@ -6,4 +6,22 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    s=str(s)
+    answer=int(0)
+    
+    if s[0].isdigit():
+        answer +=1
+
+    if s[1].isdigit():
+        answer +=1
+
+    if s[2].isdigit():
+        answer +=1
+
+    if s[3].isdigit():
+        answer +=1
+    if s[4].isdigit():
+        answer +=1
+    
+    return answer
+print(main('s594d'))
