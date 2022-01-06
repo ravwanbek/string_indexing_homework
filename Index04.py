@@ -6,4 +6,7 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    s=str(s)
+    answer=s[0:3]
+    return answer
+print(main('chevrolet'))
