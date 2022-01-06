@@ -6,4 +6,13 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    s=str(s)
+    b=int(s.replace(s[0],'5'))
+    answer=''
+    if b==type(b):
+        answer
+    else:
+        answer=-1
+    return answer
+
+print(main('i'))
