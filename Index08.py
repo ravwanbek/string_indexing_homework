@@ -6,5 +6,12 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    s=str(s)
+    answer=s.rfind('*')
+    if answer ==-1:
+        answer=False
+    
+    
+    return answer
+print(main('s556d'))
         
